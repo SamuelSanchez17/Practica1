@@ -29,15 +29,10 @@ $(document).ready(function() {
                 break;
 
             case "Dividir":
-                if(numero1 < numero2)
-                {
-                    result = "Resultado negativo";
-                    break;
-                }else{
+
                     result = numero1 / numero2;
                     break; 
-                }
-
+                    
             default:
                 result = "Operacion invalida";
         }
